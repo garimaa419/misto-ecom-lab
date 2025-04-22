@@ -1,0 +1,18 @@
+.blog{
+    /* max-width: 1450px; */
+    margin: 2rem;
+   
+}
+
+.blog_cards{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:20px ; */
+    margin-top: 3rem;
+    /* gap: 3%; */
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}

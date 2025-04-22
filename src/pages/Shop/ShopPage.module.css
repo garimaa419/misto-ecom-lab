@@ -1,0 +1,13 @@
+.ShopPage{
+    margin: 3rem;
+    margin-top: 10rem;
+}
+
+.Shop_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 3rem;
+    
+}

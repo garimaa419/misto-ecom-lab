@@ -1,0 +1,11 @@
+.loadmore__btn{
+    position: absolute;
+    bottom: -10px;
+    width: 900vw;
+    height: 40px;
+    border-radius: 5px;
+    margin: o auto;
+    background-color: rgba(241, 241, 241, 0.555);
+    border:0;
+   
+}

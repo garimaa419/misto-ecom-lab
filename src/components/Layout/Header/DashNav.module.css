@@ -1,0 +1,34 @@
+.dashNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.dashNav__item{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--grey);
+    position: relative;
+}
+.dashNav__item:hover{
+    color: #000;
+}
+
+.dashNav__item span{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    /* background-color: #000; */
+    color: #000;
+    font-size: 0.7rem;
+    border-radius: 50%;
+    padding: 4px 8px;
+    text-align: center;
+    font-weight: 500;
+}

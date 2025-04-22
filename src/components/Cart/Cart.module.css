@@ -1,0 +1,131 @@
+.cart__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding: 0.5rem;
+    overflow-y: scroll;
+    /* hide scroll bar */
+    scrollbar-width: none;
+    gap: 10px;
+
+
+}
+
+.cart__items::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.cartItem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cartItem__img {
+    border: 1px solid #e6e6e6;
+    max-width: 80px;
+    min-width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.closeButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #747474;
+    /* background-color: #e6e6e6; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    color: #e40e0e;
+}
+
+.cart__total {
+    border-top: 1px solid #e6e6e6c5;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.cartItem__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.cartItem__text__price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartItem__text__price .cancel {
+    color: #363636;
+    cursor: pointer;
+}
+
+.cartItem__text__price .cancel:hover {
+    color: #e40e0e;
+
+}
+
+.clearAll {
+    cursor: pointer;
+    color: var(--grey);
+}
+
+.clearAll:hover {
+    color: #e40e0e;
+}
+
+.cart__total {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    list-style: none;
+    gap: 0.5rem;
+}
+
+.cart__total button {
+    background-color: var(--grey);
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}

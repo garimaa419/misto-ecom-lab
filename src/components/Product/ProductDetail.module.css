@@ -1,0 +1,215 @@
+.productDetail{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.headerContainer{
+    height: 150px;
+    /* font-size: 2.5rem; */
+    /* font-weight: bold; */
+    position: relative;
+    margin-bottom: 1rem;
+    /* padding: 1rem 2rem 1rem 9rem; */
+    text-transform: capitalize;
+    background-color: rgba(42, 41, 49, 0.055);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    position: absolute;
+    top: 0.9rem;
+    left: 1rem;
+    /* background-color: rgb(231, 231, 231); */
+    font-family: monospace;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #807e7e;
+}
+
+.nav a{
+    color: #807e7e;
+    text-decoration: none; 
+}
+.nav a:hover{
+    color: #000;
+}
+.header__sku{
+    position: absolute;
+    bottom: 0.9rem;
+    right: 1rem;
+    /* background-color: rgb(231, 231, 231); */
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #807e7e;
+}
+.header__title{
+    /* font-size: 3rem; */
+    /* responsive font size with 3rem being max and 2 rem being min */
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+.productDetail__content{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 90%;
+    margin: 3rem auto;
+}
+.productDetail__image{
+    width: 100%;
+    height: auto;
+    max-width: 40%;
+    max-height: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+}
+.productDetail__image img{
+    width: 100%;
+    height: 100%;
+    
+    /* max-width: 300px;
+    max-height: 500px; */
+    padding: 20px;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.productDetail__info{
+    width: 100%;
+    height: auto;
+    /* max-width: 300px; */
+    max-width: 40%;
+    /* max-height: 300px; */
+    margin: 0 auto;
+}
+.productDetail__info h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.productDetail__info__price{
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2rem 0;
+    padding: 0;
+    margin-top: 8rem;
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2rem;
+
+}
+.productDetail__info__price button{
+    background: #4e4e4e;
+
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.productDetail__info__price button:hover{
+    background: #000;
+    color: #fff;
+}
+.productDetail__info__price button span{
+    color: #fff !important;
+}
+.productDetail__info__price button::after{
+   content: "Add to cart";
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.productDetail__info__description{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 3rem 0;
+    padding: 0;
+    line-height: 2rem;
+}
+
+.subSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    padding-top: 12px;
+    column-gap: 1rem;
+    background-color: rgba(42, 41, 49, 0.055);
+    color: var(--grey);
+}
+.subSection__item{
+    column-gap: 5px;
+    display: flex;
+    font-size: 1.2rem;
+}
+.subSection__item__text{
+    font-size: 0.8rem;
+    font-weight: 500;
+
+}
+.similarProducts{
+    margin: 5rem 3rem;
+    overflow-x:scroll ;
+    scrollbar-width: none;
+}
+.similarProducts__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin: 3rem auto;
+
+}
+.similarProducts::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 825px) {
+    .productDetail__content{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+        width: 100%;
+        margin: 3rem auto;
+    }
+    .productDetail__image{
+        width: 100%;
+        height: auto;
+        max-width: 80%;
+        min-height: 400px;
+        max-height: 600px;
+        margin: 2rem auto;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    
+    }
+    .productDetail__info{
+        width: 100%;
+        height: auto;
+        /* max-width: 300px; */
+        max-width: 90%;
+        /* max-height: 300px; */
+        margin: 0 auto;
+    }
+}

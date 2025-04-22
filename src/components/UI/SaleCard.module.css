@@ -1,0 +1,47 @@
+.saleCard{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    position: relative;
+    text-transform: uppercase;
+    /* margin-bottom: 10em; */
+}
+.saleCard__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.saleCard__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.saleCard__info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.856);
+    padding: 10px 25px;
+    width: 350px;
+    backdrop-filter: blur(101px);
+    
+}
+.saleCard__info h3{
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(153, 153, 153);
+    letter-spacing: 2px;
+    
+}
+.saleCard__info p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    letter-spacing: 2px;
+}
+.saleCard__info p span{
+    color: rgb(245, 12, 245);
+}

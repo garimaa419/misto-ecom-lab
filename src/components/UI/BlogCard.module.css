@@ -1,0 +1,23 @@
+.blog_item{
+    width: 100%;
+    position: relative;
+    margin-bottom: 8rem;
+}
+.blog__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog__text{
+    position: absolute;
+    bottom: -4rem;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 1rem;
+    background: #fff;
+    color: var(--grey);
+    /* text-align: center; */
+    font-size:clamp(0.8rem, 2.5vw, 1rem);
+}

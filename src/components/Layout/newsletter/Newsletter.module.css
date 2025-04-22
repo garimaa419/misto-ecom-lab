@@ -1,0 +1,105 @@
+.newsletter{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin-bottom:5em ;
+    text-transform: uppercase;
+}
+.newsletter__bg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.newsletter__form{
+    position: absolute;
+    /* left: 10vw; */
+    left: 10%;
+    top: 50px;
+    /* width: 100%; */
+    max-width: 470px;
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 2rem; */
+}
+.newsletter__form h2{
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.2;
+   
+}
+.newsletter__form h4{
+    font-size: 1.2em;
+    font-weight: 400;
+
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.newsletter__form h2 span{
+    color: #fb7900;
+}
+.newsletter__form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter__form form input{
+    width: 100%;
+    
+    height: 50px;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+.newsletter__form form button{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.newsletter__form form button:hover{
+    background-color:#242424;
+}
+
+@media (max-width: 565px) {
+    .newsletter__form{
+        position: relative;
+        /* left: 10vw; */
+        left: unset;
+        top: 50px;
+        width: 100%;
+        max-width: 470px;
+        height: 400px;
+        margin: 0 auto;
+        padding: 0 20px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin: 2rem; */
+    }
+}

@@ -1,0 +1,8 @@
+/* make bf var */
+:root {
+    --bg-color: #fafafa;
+}
+
+body {
+    background-color: var(--bg-color);
+}

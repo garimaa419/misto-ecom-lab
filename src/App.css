@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* make variable */
+:root {
+  --grey: #7e7e7e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: unset;
+  padding: unset;
+  font-family: Poppins, sans-serif;
+  border: unset;
+  background-color: unset;
+}
+
+::selection {
+  background: var(--grey);
+  color: #fff;
+}
+
+.product-section {
+  max-width: 1450px;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+a.active{
+  color: #000 !important;
+}
+main{
+  margin-top: 7.5rem;
+}
+.magnifying-glass{
+  background-color: #fff!important;
+}
+
+/* add smooth scroll */
+.App{
+  scroll-behavior: smooth;
+  
+}

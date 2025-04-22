@@ -1,0 +1,67 @@
+.congratulation_icon{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+    display:block;
+    padding: 20px;
+
+}
+.congratulation_icon svg{
+    width: 100%;
+    height: 100%;
+}
+
+.congratulation_title{
+    font-size:30px;
+    text-align:center;
+    margin-top:20px;
+}
+.congratulation{
+    width:100%;
+    height:100%;
+    min-height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    position: relative;
+}
+.congratulation__container{
+    width:100%;
+    height:100%;
+    margin-bottom:4rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.congratulation_button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width:250px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 2rem 1rem; */
+    background: rgb(68, 68, 68);
+    color: #fff;
+    border-radius: 5px;
+}
+.congratulation_button:hover{
+    background: rgb(68, 68, 68);
+    color: #fff;
+}
+.congratulation_button button{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    letter-spacing: 1px;
+}
+.congratulation_text{
+    text-align: center;
+}
