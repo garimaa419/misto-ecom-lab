@@ -73,9 +73,9 @@ const Footer = () => {
 		</div>
 
 			<div className={styles.copyright}>
-				<p> © 2022 Misto. All Rights Reserved.</p>
+				<p> © 2025 Misto. All Rights Reserved.</p>
 				<p>
-					Made by <a href="https://blackkspydo.com">Blackkspydo</a> with{" "}
+					Made by <p>Sobita, Garima, Apekshya</p> with{" "}
 					<BsFillSuitHeartFill />{" "}
 				</p>
 			</div>
